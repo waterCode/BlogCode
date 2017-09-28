@@ -10,7 +10,6 @@ public class Search {
         if(str == null){
             return -1;
         }
-
         int lo = 0,hi = str.length-1;
         while(lo <= hi){//一定要等于
             int temp = (lo + hi) / 2;
