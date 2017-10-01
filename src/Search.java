@@ -21,6 +21,7 @@ public class Search {
                 lo = temp + 1;
             }
         }
+
         return -1;
     }
 }
